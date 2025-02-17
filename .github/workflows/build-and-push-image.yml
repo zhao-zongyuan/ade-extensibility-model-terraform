@@ -15,6 +15,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    environment: prd
+
     steps:
     - name: 'Az CLI login'
       uses: azure/login@v2
